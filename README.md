@@ -14,6 +14,8 @@ DriveMeCrazy is a dating website for vehicles.
 "Tinder for cars – because vehicles deserve love too."
 A ridiculously useless dating platform for vehicles, built for Wreckathon 2025.
 
+Link to the site: https://drivemecrazy25.netlify.app/
+
 # 🎯 Inspiration
 
 Let’s face it — in a world of self-driving cars and emotionally neglected sedans, it's about time vehicles had a space to connect. Whether it’s a lonely Prius looking for a high-mileage companion or a monster truck tired of being judged for its size, Drive Me Crazy gives vehicles the chance to swipe, match, and maybe even rev together.
