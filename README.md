@@ -147,9 +147,9 @@ This is a modern, full-stack TypeScript application with real-time capabilities,
 
 # 👨‍👩‍👧‍👦 Team
 
-[Sarthak Sharma] – Full stack development 
-
 [Naysha Khurana] – Graphic Designer, UX Comedy Director, Content Writer
+
+[Sarthak Sharma] – Full stack development 
 
 [Shivam Rohatgi] – Content Writer
 
