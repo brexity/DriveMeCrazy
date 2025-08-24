@@ -126,10 +126,10 @@ This is a modern, full-stack TypeScript application with real-time capabilities,
 - Clone your forked repository to your local machine using `git clone`. Clone dev branch if want to use the bleeding edge version.
 
   ```shell
-  git clone https://github.com/yourusername/Yosemite-Crew.git
-  git clone -b dev https://github.com/yourusername/Yosemite-Crew.git
+  git clone https://github.com/yourusername/DriveMeCrazy.git
+  git clone -b dev https://github.com/yourusername/DriveMeCrazy.git
 
-  cd Yosemite-Crew
+  cd DriveMeCrazy
   ```
 
 - Install the project dependencies.
