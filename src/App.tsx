@@ -977,7 +977,7 @@ function App() {
           <div className="text-center">
             <div className="relative inline-block mb-4">
               <img 
-                src={userProfile?.avatar_url || 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg'} 
+                src={userProfile?.avatar_url || 'Creta.jpg'} 
                 alt="Profile" 
                 className="w-24 h-24 rounded-full object-cover border-4" style={{ borderColor: '#C24264' }}
               />
@@ -998,8 +998,8 @@ function App() {
                 <Settings className="w-4 h-4" />
               </button>
             </div>
-            <h2 className="text-2xl font-bold text-gray-800">Shivam Rohatgi</h2>
-            <p className="text-gray-600">demo@drivemecrazy.com</p>
+            <h2 className="text-2xl font-bold text-gray-800">Creta</h2>
+            <p className="text-gray-600">creta@drivemecrazy.com</p>
             <p className="text-sm text-gray-500 mt-2">Looking for my automotive soulmate! 🚗💕</p>
           </div>
         </div>
@@ -1010,43 +1010,43 @@ function App() {
           <div className="bg-white rounded-lg shadow-md p-6">
             <div className="flex items-center mb-4">
               <div className="flex">
-                <img src="https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg" alt="Ferrari" className="w-12 h-12 rounded-full object-cover border-2 border-pink-300" />
-                <img src="https://images.pexels.com/photos/638479/pexels-photo-638479.jpeg" alt="Lamborghini" className="w-12 h-12 rounded-full object-cover border-2 border-pink-300 -ml-4" />
+                <img src="Maruti.jpg" alt="Ferrari" className="w-12 h-12 rounded-full object-cover border-2 border-pink-300" />
+                <img src="Alto.jpg" alt="Lamborghini" className="w-12 h-12 rounded-full object-cover border-2 border-pink-300 -ml-4" />
               </div>
               <div className="ml-4">
-                <h3 className="font-bold">Sophia & Lorenzo</h3>
-                <p className="text-sm text-gray-600">Italian Supercars</p>
+                <h3 className="font-bold">Maruti 800 & Alto</h3>
+                <p className="text-sm text-gray-600">Childhood Sweethearts</p>
               </div>
             </div>
-            <p className="text-gray-700 italic">"We met on DriveMeCrazy and it was love at first sight! Now we race together through the Italian countryside every weekend. Thanks DriveMeCrazy!" 🏎️❤️</p>
+            <p className="text-gray-700 italic">""We were parked next to each other in school days—sharing the same garage, same colony, same childhood. Then life pulled us apart: I got sold in OLX, and she got a new number plate. Years later, thanks to Drive Me Crazy, we swiped right again. Today, we honk in harmony… and our families say our mileage matches perfectly." 🚗💘🚗</p>
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6">
             <div className="flex items-center mb-4">
               <div className="flex">
-                <img src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg" alt="Honda" className="w-12 h-12 rounded-full object-cover border-2 border-blue-300" />
-                <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg" alt="Toyota" className="w-12 h-12 rounded-full object-cover border-2 border-blue-300 -ml-4" />
+                <img src="BMW.jpg" alt="Honda" className="w-12 h-12 rounded-full object-cover border-2 border-blue-300" />
+                <img src="Wagon.jpg" alt="Toyota" className="w-12 h-12 rounded-full object-cover border-2 border-blue-300 -ml-4" />
               </div>
               <div className="ml-4">
-                <h3 className="font-bold">Chuck & Reliable Rita</h3>
-                <p className="text-sm text-gray-600">Practical Partners</p>
+                <h3 className="font-bold">BMW & WagonR</h3>
+                <p className="text-sm text-gray-600">The Unexpected Match</p>
               </div>
             </div>
-            <p className="text-gray-700 italic">"Two reliable cars finding reliable love! We've been together for 50,000 miles and counting. Our relationship is like our maintenance records - spotless!" 🚗💙</p>
+            <p className="text-gray-700 italic">"All my life people chased me for my looks, my brand, my sunroof selfies. But deep down, I just wanted someone who loved me for my engine, not my EMI. Then I met WagonR here—no makeup, no filters, just pure mileage. She makes me feel grounded… literally, her ground clearance is unmatched." 🏎️❤️🚙</p>
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6">
             <div className="flex items-center mb-4">
               <div className="flex">
-                <img src="https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg" alt="Plane" className="w-12 h-12 rounded-full object-cover border-2 border-blue-300" />
-                <img src="https://images.pexels.com/photos/163998/helicopter-aircraft-airplane-plane-163998.jpeg" alt="Helicopter" className="w-12 h-12 rounded-full object-cover border-2 border-blue-300 -ml-4" />
+                <img src="Titanic.jpg" alt="Plane" className="w-12 h-12 rounded-full object-cover border-2 border-blue-300" />
+                <img src="OceanGate.jpg" alt="Helicopter" className="w-12 h-12 rounded-full object-cover border-2 border-blue-300 -ml-4" />
               </div>
               <div className="ml-4">
-                <h3 className="font-bold">Captain & Storm</h3>
-                <p className="text-sm text-gray-600">Aviation Romance</p>
+                <h3 className="font-bold">Titanic & Oceangate</h3>
+                <p className="text-sm text-gray-600">A Deep Connection</p>
               </div>
             </div>
-            <p className="text-gray-700 italic">"Long distance was tough, but we made it work! Now we share the same hangar and take romantic sunset flights together. Love really can make you soar!" ✈️🚁💕</p>
+            <p className="text-gray-700 italic">"Everyone told us: stay away, it’s a sinking feeling. But Drive Me Crazy didn’t judge. One swipe later, we discovered we were both hopeless romantics—with a flair for going down together. People call it tragedy, we call it deep love." 🚢💔🛸</p>
           </div>
         </div>
 
