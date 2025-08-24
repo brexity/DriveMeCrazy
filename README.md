@@ -128,8 +128,7 @@ This is a modern, full-stack TypeScript application with real-time capabilities,
 - Clone your forked repository to your local machine using `git clone`. Clone dev branch if want to use the bleeding edge version.
 
   ```shell
-  git clone https://github.com/yourusername/DriveMeCrazy.git
-  git clone -b dev https://github.com/yourusername/DriveMeCrazy.git
+  git clone https://github.com/yourusername/DriveMeCrazy.git  
 
   cd DriveMeCrazy
   ```
@@ -145,6 +144,22 @@ This is a modern, full-stack TypeScript application with real-time capabilities,
   ```shell
   npm run dev                    -- Run the website
   ```
+
+# 👨‍👩‍👧‍👦 Team
+
+[Sarthak Sharma] – Full stack development 
+
+[Naysha Khurana] – Graphic Designer, UX Comedy Director, Content Writer
+
+[Shivam Rohatgi] – Content Writer
+
+# 🤡 Made For
+
+Wreckathon 2025 – where innovation meets nonsense.
+
+# 📄 License
+
+MIT – Because even ridiculous code deserves freedom.
 
 
 <br>
