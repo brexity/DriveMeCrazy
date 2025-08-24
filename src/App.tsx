@@ -32,73 +32,158 @@ const vehicles: Vehicle[] = [
   {
     id: 1,
     name: "Baleno",
-    type: "Ferrari 488",
-    age: 3,
-    mileage: "12,000 KM",
-    location: "Beverly Hills, CA",
-    bio: "You can see a lot like me, but no one’s as cool as me. Topper of JEE Mileage Exam. Papa says i’m the pride of the family. Good with number (kmpl), bad with safety (I break faster than hearts in DTU). Looking for someone who likes stability, not airbags.",
-    images: ["https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg"],
-    interests: ["Speed", "Luxury", "Italian Cuisine", "Valet Parking"],
-    lookingFor: "Premium fuel only, garage space, someone who appreciates Italian engineering",
-    dealBreakers: ["Diesel engines", "Pickup trucks", "Anyone over 100k miles"],
-    isPremium: true
-  },
-  {
-    id: 2,
-    name: "Chuck Reliable",
-    type: "Honda Civic",
-    age: 8,
-    mileage: "156,000 miles",
-    location: "Suburban Anywhere, USA",
-    bio: "Honest, reliable, and fuel-efficient! 🚗 I may not be the flashiest, but I'll never let you down. Great with kids (car seats), love road trips, and I come with a spotless maintenance record!",
-    images: ["https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg"],
-    interests: ["Long-term relationships", "Family trips", "Fuel efficiency", "Regular maintenance"],
-    lookingFor: "Someone stable, good with parallel parking, appreciates reliability over flash",
-    dealBreakers: ["Racing", "Off-roading", "Neglecting oil changes"],
+    type: "@bluboi_69",
+    age: 6,
+    mileage: " 85,000 (college + coaching + shaadi functions)",
+    location: "Rohini",
+    bio: "You can see a lot like me, but no one’s as cool as me. Topper of JEE Mileage Exam. Papa says i’m the pride of the family. Good with number (kmpl), bad with safety (I break faster than hearts in NSUT). Looking for someone who likes stability, not airbags.",
+    images: ["/Baleno.jpg"],
+    interests: ["Blue ink pens", "EMIs", "your dad"],
+    lookingFor: " A partner who values mileage over muscles",
+    dealBreakers: ["NCAP crash tests"],
     isPremium: false
   },
   {
+    id: 2,
+    name: "Batmobile",
+    type: "@DarkKnight_Rides",
+    age: 15,
+    mileage: "Classified (most at night)",
+    location: "Gotham, mostly caves",
+    bio: "I am Vengeance",
+    images: ["Batmobile.jpg"],
+    interests: ["Brooding", "chasing clowns", "pretending I don’t need therapy"],
+    lookingFor: "Someone who can handle my dark side (literally no streetlights)",
+    dealBreakers: ["Daylight"],
+    isPremium: true
+  },
+  {
     id: 3,
-    name: "Captain Wanderlust",
-    type: "Boeing 737",
-    age: 12,
-    mileage: "2.5 million air miles",
-    location: "Always traveling ✈️",
-    bio: "World traveler seeking co-pilot for life's adventures! I'm always on the move but looking to settle down in the right hangar. Love sunrises at 30,000 feet and romantic layovers in Paris.",
-    images: ["https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg"],
-    interests: ["Travel", "International cuisine", "Weather patterns", "Aviation museums"],
-    lookingFor: "Someone who loves adventure, doesn't mind long-distance, appreciates jet fuel",
-    dealBreakers: ["Fear of flying", "Ground transportation only", "Helicopter types"],
+    name: "Boeing 737",
+    type: "@SkyDaddy737",
+    age: 98,
+    mileage: "Countless, but always delayed",
+    location: "Aerocity",
+    bio: "A living proof of “size does matter” ;) Old enough to need maintenance, young enough to deny it. Perfect for long-distance relationships that may or may not land safely. Swipe right if you’re up for some turbulence in your relationship 😏",
+    images: ["/Boeng.jpg"],
+    interests: ["Long walks on tarmacs", "turbulence", "“unexpected technical issues”"],
+    lookingFor: "Someone who won’t dump me for Airbus",
+    dealBreakers: ["Lightning storms", "Twitter complaints"],
     isPremium: true
   },
   {
     id: 4,
-    name: "Eco Emma",
-    type: "Tesla Model 3",
-    age: 2,
-    mileage: "28,000 miles",
-    location: "Portland, OR",
-    bio: "Saving the planet one mile at a time! 🌱 Zero emissions, maximum vibes. I love silent mornings, solar charging, and judging gas guzzlers at traffic lights. Autopilot certified!",
-    images: ["https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg"],
-    interests: ["Sustainability", "Tech", "Yoga retreats", "Solar panels"],
-    lookingFor: "Carbon-neutral lifestyle, someone who cares about the environment",
-    dealBreakers: ["Gas engines", "Diesel", "Coal rollers", "Littering"],
-    isPremium: true
+    name: "Activa",
+    type: "@scootea",
+    age: 9,
+    mileage: "Infinite (I’ve seen all of India)",
+    location: "Everywhere. Literally",
+    bio: "A true all rounder. I’m on every street and road, might even be inside your house too. I carry gas cylinders triple my weight, three kids, five friends on a “gedi” and what not. I’m also third wheeling with every Indian couple, so I know how relationships work 🤪",
+    images: ["Activa.jpg"],
+    interests: ["School runs", "grocery trips", "tution", "shifting furniture"],
+    lookingFor: "Someone who won’t be embarrassed riding triple-seat",
+    dealBreakers: ["Speed breakers"],
+    isPremium: false
   },
   {
     id: 5,
-    name: "Big Mike",
-    type: "Ford F-150",
+    name: "Titanic",
+    type: "@SankWithFeelings",
+    age: 113,
+    mileage: "Just one trip 💔",
+    location: "Atlantic (deep)",
+    bio: "Hopeless romantic, who went down too fast on our first date. Now looking for someone to heal me from my past trauma 💔 #dead_inside",
+    images: ["Titanic.jpg"],
+    interests: ["Romantic violin music", "fancy dinners", "unsinkable vibes"],
+    lookingFor: "Someone who won’t “let go”",
+    dealBreakers: ["Icebergs"],
+    isPremium: true
+  },
+  {
+    id: 6,
+    name: "OceanGate Sub",
+    type: "@TooDeep_TooSoon",
+    age: 1,
+    mileage: "One-way ticket",
+    location: "With Titanic",
+    bio: "I love drowning in deep thoughts. Collapsed once under pressure, but hey… who hasn’t had a bad date? 😅 Swipe right if you’re into risky trips with no return ticket  #adventurous #risky",
+    images: ["OceanGate.jpg"],
+    interests: ["Titanic fan meets", "expensive mistakes"],
+    lookingFor: "Someone who can handle pressure",
+    dealBreakers: ["Bolts and nuts"],
+    isPremium: true
+  },
+  {
+    id: 7,
+    name: "Swift Dzire",
+    type: "@swifty",
     age: 6,
-    mileage: "78,000 miles",
-    location: "Texas, USA",
-    bio: "Built tough and ready for anything! 💪 Whether it's hauling your furniture or towing your boat, I'm your guy. Love country music, muddy trails, and honest work. Family-oriented and loyal.",
-    images: ["https://images.pexels.com/photos/1118448/pexels-photo-1118448.jpeg"],
-    interests: ["Outdoor adventures", "Country music", "BBQ", "Honest work"],
-    lookingFor: "Down-to-earth companion, someone who appreciates hard work",
-    dealBreakers: ["City-only driving", "Afraid of dirt", "Hybrid attitudes"],
+    mileage: "1,20,000 (airport runs + shaadi baraats)",
+    location: "Outside airports",
+    bio: "proud TCS employee, kinda overworked, but your dad’s favourite 😎 I’ve carried sobbing brides and drunk uncles, all while being covered with flowers and ribbons. Looking for someone who won’t cancel my Uber bookings last minute ;)",
+    images: ["/Dzire.jpg"],
+    interests: [" In-laws", "wedding music", "surge pricing"],
+    lookingFor: "Someone who won’t rate me below 5 stars",
+    dealBreakers: ["“Bhaiya, thoda jaldi chalo”"],
+    isPremium: false
+  },
+  {
+    id: 8,
+    name: "Thar",
+    type: "@jaat_attitude_4x4",
+    age: 15,
+    mileage: " 12,000 (95% for flex, 5% for petrol pump selfies)",
+    location: "Outside hookah cafes",
+    bio: " I don’t just move, I dominate 😎 Even the cops are afraid of my fog lights, window-shattering music, and kaale sheeshe 😎 Swipe right if you can handle a #attitude_boy like me 😎",
+    images: ["/Thar.jpg"],
+    interests: [" Loud Punjabi songs", "illegal fog lights", "scaring auto drivers"],
+    lookingFor: "Someone who doesn't pay toll", 
+    dealBreakers: ["Someone who respects “Thar Wale Bhaiya” status"],
+    isPremium: true
+  },
+  {
+    id: 9,
+    name: "Mini",
+    type: "@mrbean",
+    age: 40,
+    mileage: "Enough to terrorize London traffic",
+    location: "In a lifelong feud with that stupid blue car",
+    bio: "Your cute little green flag. A sofa on my head so you can always sit on me ;) Expect childish pranks on dates :D So swipe right before that blue car steals you like it steals my parking spot",
+    images: ["/BeanMobile.jpg"],
+    interests: ["Teddy bears", "causing chaos", "parking badly"],
+    lookingFor: "Someone who laughs at awkward silences",
+    dealBreakers: ["Blue cars"],
+    isPremium: false
+  },
+  {
+    id: 10,
+    name: "F-16",
+    type: "@CatchMeIfUCan",
+    age: 16,
+    mileage: "Classified",
+    location: "India (occasional trips to padosi mulk)",
+    bio: "A fighter (literally), lowkey overprotective, and will break his sound barrier if any other jet looks at you. Some nation keeps claiming they’ve ‘caught’ me, but trust me… I’m still single, thriving, and flying solo ;)",
+    images: ["/F16.jpg"],
+    interests: ["Dogfights", "sonic booms", "being “caught” in jokes"],
+    lookingFor: "A true wingman",
+    dealBreakers: ["Radar locks"],
+    isPremium: true
+  },
+  {
+  id: 11,
+    name: "Bhide’s Scooter",
+    type: "@Sanskaar_On_2Wheels",
+    age: 20,
+    mileage: "Tuition runs + society meetings",
+    location: "Gokuldham Society, always parked neatly",
+    bio: "Pride of Gokuldham Society’s Ekmev Secretary Shri Atmaram Tukaram Bhide :D Runs on discipline and respect. Swipe right if you’re up for tuition classes and some achaar-papad mid-date ;)",
+    images: ["/Bhide.jpg"],
+    interests: ["Discipline", "tuition fees", "filing society complaints"],
+    lookingFor: "A cultured partner who believes in rules and receipts",
+    dealBreakers: ["Late fees & rule breakers"],
     isPremium: false
   }
+
 ];
 
 function App() {
@@ -329,6 +414,9 @@ function App() {
 
   const handleLogout = async () => {
     try {
+      if (!isOfflineMode) {
+        await supabase.auth.signOut();
+      }
       // Reset everything for demo mode
       setIsAuthenticated(false);
       setUser(null);
@@ -378,57 +466,59 @@ function App() {
   const VehicleProfileScreen = ({ vehicle }: { vehicle: Vehicle }) => {
     const getVehicleQuirks = (vehicle: Vehicle) => {
       const quirks = {
-        1: [ // Sophia Sportster - Ferrari
-          "Only drinks premium fuel (anything less is peasant juice)",
-          "Requires valet parking - self-parking is beneath me",
-          "Gets jealous when you look at other cars",
-          "Has a personal mechanic named Giuseppe",
-          "Refuses to drive in the rain (it ruins my blowout)",
-          "Only listens to Italian opera while driving"
+        1: [ // Baleno
+          "Safest thing about me is my color: Blue."
         ],
-        2: [ // Chuck Reliable - Honda Civic
-          "Has never missed an oil change appointment",
-          "Keeps a detailed maintenance log in the glove compartment",
-          "Gets excited about gas station loyalty programs",
-          "Knows every Jiffy Lube employee by name",
-          "Has a 'My other car is also a Honda' bumper sticker",
-          "Celebrates every 10,000 mile milestone with a car wash"
+        2: [ // Batmobile
+          "I’m the only car that comes with a tragic backstory"
         ],
-        3: [ // Captain Wanderlust - Boeing 737
+        3: [ // Boeing 737
           "Has frequent flyer miles with every airline",
           "Speaks 12 languages (mostly aviation codes)",
-          "Gets homesick for the sky when grounded too long",
-          "Has a collection of airport snow globes",
-          "Dreams in flight patterns",
+          "My middle name is “We regret the inconvenience.”",
           "Once dated a helicopter but it didn't work out (commitment issues)"
         ],
-        4: [ // Eco Emma - Tesla
-          "Judges gas cars at traffic lights",
-          "Has a solar panel collection hobby",
-          "Meditates while charging",
-          "Only dates other electric vehicles (gas is a dealbreaker)",
-          "Has a compost bin in the trunk",
-          "Knows the carbon footprint of everything"
+        4: [ // Activa
+          "I’m India’s unofficial national vehicle."
         ],
-        5: [ // Big Mike - Ford F-150
-          "Has a toolbox that's more organized than most people's homes",
-          "Can tow literally anything (including your emotional baggage)",
-          "Knows every country song by heart",
-          "Has mud flaps with naked lady silhouettes",
-          "Considers a car wash a spa day",
-          "Has a cooler full of beer in the bed (for after work, of course)"
-        ]
+        5: [ // Titanic
+          "Still the biggest third-wheel in history."
+        ],
+        6: [ // OceanGate
+          "I make “ghosting” look too real."
+        ],
+        7: [ // Dzire
+          "I’ve seen more family drama than Ekta Kapoor."
+        ],
+        8: [ // Thar
+          "Even cops are scared to stop me."
+        ],
+        9: [ // Mr Bean
+          "Sometimes I drive from the roof."
+        ],
+        10: [ // F16
+          "Everyone claims me, no one has me."
+        ],
+        11: [ // Bhide Scooter
+          "I carry more stress than passengers."
+        ],
       };
       return quirks[vehicle.id] || [];
     };
 
     const getVehicleStats = (vehicle: Vehicle) => {
       const stats = {
-        1: { topSpeed: "211 mph", acceleration: "0-60 in 3.0s", fuelType: "Premium Only", maintenance: "$$$$$" },
-        2: { topSpeed: "127 mph", acceleration: "0-60 in 8.2s", fuelType: "Regular (like me!)", maintenance: "$" },
-        3: { topSpeed: "544 mph", acceleration: "0-30,000ft in 8 min", fuelType: "Jet Fuel", maintenance: "NASA Level" },
-        4: { topSpeed: "162 mph", acceleration: "0-60 in 3.1s", fuelType: "Electricity ⚡", maintenance: "$$" },
-        5: { topSpeed: "107 mph", acceleration: "0-60 in 6.1s", fuelType: "Regular/Diesel", maintenance: "$$" }
+        1: { topSpeed: "180 (but airbags said bye)", acceleration: "0–100 only if road is clear for 2 km", fuelType: "Petrol mixed with parents’ expectations" },
+        2: { topSpeed: "Fast enough to catch Joker", acceleration: " 0–100 in a dramatic cloud of smoke", fuelType: "Batfuel" },
+        3: { topSpeed: "945 km/h (when sober)", acceleration: "Enough to spill your coffee", fuelType: "Aviation fuel + denial", maintenance: "Billionaire tears" },
+        4: { topSpeed: "60 downhill, 75 with tailwind", fuelType: "Petrol, patience, jugaad", maintenance: "Pocket money friendly" },
+        5: { topSpeed: "Was 42 km/h… briefly", acceleration: "Irrelevant when you hit an iceberg", fuelType: "Coal + hope", maintenance: "Eternal" },
+        6: { acceleration: "Straight down", fuelType: "Ego + duct tape", maintenance: "Should’ve been higher" },
+        7: { topSpeed: "140 (before passenger cancels ride)", acceleration: "Depends on AC on/off", fuelType: "Petrol + small talk", maintenance: "As middle-class as it gets" },
+        8: { topSpeed: "Depends on how loud my owner screams “Bhaisaab side!”", acceleration: "0–100 in “bro, suno na” seconds", fuelType: "Diesel + ego", maintenance: "Papa pays" },  
+        9: { topSpeed: "70 downhill, with prayers", acceleration: "0–30 only after 2 minutes of comedy", fuelType: "Quirkiness + trumpet sounds", maintenance: "Negligible (I fix myself with a padlock and rope)" },
+        10: { topSpeed: "2,400 km/h (don’t blink)", acceleration: "0–Supersonic in a fight", fuelType: "Jet fuel + pride", maintenance: "Defence budget" },
+        11: { topSpeed: "40 km/h (with helmet, ID, and ration card)", acceleration: "Slow, but full of responsibility", fuelType: "Petrol + Marathi pride", maintenance: "Carefully budgeted in monthly diary" },
       };
       return stats[vehicle.id] || {};
     };
@@ -437,8 +527,12 @@ function App() {
     const stats = getVehicleStats(vehicle);
 
     return (
-      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+      <div
+       className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+       onClick={closeVehicleProfile}
+       >
         <div className="bg-white rounded-2xl max-w-md w-full max-h-[90vh] overflow-y-auto">
+        <div onClick={(e) => e.stopPropagation()}>
           {/* Header Image */}
           <div className="relative">
             <img 
@@ -575,6 +669,7 @@ function App() {
             </div>
           </div>
         </div>
+         </div>
       </div>
     );
   };
@@ -873,7 +968,7 @@ function App() {
   );
 
   const ProfileScreen = () => (
-    <div className={`min-h-screen p-4 transition-opacity duration-500 ${isTransitioning ? 'opacity-0' : 'opacity-100'}`} style={{ backgroundColor: '#F8B6C7' }}>
+    <div className={`min-h-screen p-4 pb-24 transition-opacity duration-500 ${isTransitioning ? 'opacity-0' : 'opacity-100'}`} style={{ backgroundColor: '#F8B6C7' }}>
       <div className="max-w-md mx-auto">
         <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">Your Profile</h1>
         
