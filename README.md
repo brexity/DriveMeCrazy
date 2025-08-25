@@ -34,7 +34,7 @@ Built for Wreckathon, where creativity, comedy, and uselessness rule supreme.
 
 🧠 Artificial intelligence? Nah. Artificial stupidity.
 
-🧱 Tech Stack
+# 🧱 Tech Stack
 
 # 🚀 Frontend Framework & Core
 React 18.3.1 - Main UI framework with hooks and functional components
